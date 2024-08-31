@@ -35,7 +35,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"><button>coinmooner</button></a>
+    <a className="btn btn-ghost text-xl"><button><img className='w-40 h-15' src="https://i.ibb.co/gvxJQS0/horizontal-logo-small.png" alt="" /></button></a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -87,7 +87,7 @@ const Navbar = () => {
    
   </div>
 </div>
-        </div>
+    </div>
     );
 };
 
