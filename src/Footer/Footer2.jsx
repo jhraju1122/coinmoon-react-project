@@ -13,7 +13,6 @@ const Footer2 = () => {
             <footer className="footer bg-neutral text-neutral-content items-center p-4 justify-around">
   <aside className="w-52 h-20">
   <a href="#"><img src="https://i.ibb.co/gvxJQS0/horizontal-logo-small.png" alt="" /></a>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
   <nav className="grid-flow-col gap-4 md:place-self-center  md:">
     <a href="#"> 
@@ -43,6 +42,8 @@ const Footer2 = () => {
    
   </nav>
 </footer>
+<p className='text-center'>Copyright © {new Date().getFullYear()} - All right reserved</p>
+
         </div>
     );
 };
