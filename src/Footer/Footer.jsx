@@ -7,65 +7,68 @@ const Footer = () => {
 
 
    <footer className="footer bg-neutral  text-neutral-content grid-rows-2">
-   <nav>
+    <div className='grid grid-cols-4 text-[15px] gap-8 m-auto'>
+    <div className='grid grid-cols-1 font-semibold'>
     <h6 className="footer-title">CRYPTOCURRENCY RANKING</h6>
-    <a className="link link-hover">List of all coins</a>
-    <a className="link link-hover">Submit a coin</a>
-    <a className="link link-hover">Request a token update</a>
- 
-  </nav>
-  <nav>
+    <a className="link link-hover p-1">List of all coins</a>
+    <a className="link link-hover p-1">Submit a coin</a>
+    <a className="link link-hover p-1">Request a token update</a>
+
+    <div className='grid grid-cols-1 font-semibold'>
+    <h6 className="footer-title mt-5">AUDIT</h6>
+    <a className="link link-hover p-1">Smart contract audit</a>
+    <a className="link link-hover p-1">Audited coins</a>
+  </div>
+  </div>
+  <div className='grid grid-cols-1 font-semibold'>
     <h6 className="footer-title">ADVERTISING</h6>
-    <a className="link link-hover">Ads</a>
-    <a className="link link-hover">Marketing services</a>
-    <a className="link link-hover">Email promotion</a>
- 
-  </nav>
+    <a className="link link-hover p-1">Ads</a>
+    <a className="link link-hover p-1">Marketing services</a>
+    <a className="link link-hover p-1">Email promotion</a>
+
+    <div className='grid grid-cols-1 font-semibold'>
+    <h6 className="footer-title mt-5">Company</h6>
+    <a className="link link-hover p-1">Partners</a>
+    <a className="link link-hover p-1">Media kit</a>
+    <a className="link link-hover p-1">Contact us</a>
+   </div>
+  </div>
   
-  <nav>
+  <div className='grid grid-cols-1 font-semibold '>
     <h6 className="footer-title">BLOG</h6>
-    <a className="link link-hover"> News</a>
-    <a className="link link-hover">Finance</a>
-    <a className="link link-hover">DeFi news</a>
-    <a className="link link-hover">Dapps</a>
-    <a className="link link-hover">GameFi</a>
-    <a className="link link-hover">Exchange news</a>
-    <a className="link link-hover">Launchpad news</a>
-    <a className="link link-hover"> Altcoins</a>
-    <a className="link link-hover"> NFT</a>
-    <a className="link link-hover">Tutorials</a>
-  </nav>
-  <nav>
+    <a className="link link-hover p-1"> News</a>
+    <a className="link link-hover p-1">Finance</a>
+    <a className="link link-hover p-1">DeFi news</a>
+    <a className="link link-hover p-1">Dapps</a>
+    <a className="link link-hover p-1">GameFi</a>
+    <a className="link link-hover p-1">Exchange news</a>
+    <a className="link link-hover p-1">Launchpad news</a>
+    <a className="link link-hover p-1"> Altcoins</a>
+    <a className="link link-hover p-1"> NFT</a>
+    <a className="link link-hover p-1">Tutorials</a>
+  </div>
+  <div className='grid grid-cols-1 font-semibold'>
     <h6 className="footer-title">ADD ASSETS</h6>
-    <a className="link link-hover">Submit a coin</a>
-    <a className="link link-hover">Submit a presale coin</a>
-    <a className="link link-hover">Submit an airdrop</a>
-    <a className="link link-hover">Request an update</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">AUDIT</h6>
-    <a className="link link-hover">Smart contract audit</a>
-    <a className="link link-hover">Audited coins</a>
-    
-  </nav>
-  <nav>
-    <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">Partners</a>
-    <a className="link link-hover">Media kit</a>
-    <a className="link link-hover">Contact us</a>
-   </nav>
-  <nav>
-    <h6 className="footer-title">LEGAL</h6>
-    <a className="link link-hover">Terms & Conditions</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie statement</a>
-    <a className="link link-hover">Cookie statement</a>
-    <a className="link link-hover"> Disclaimer</a>
-    <a className="link link-hover">Operating entities</a>
-  </nav>
+    <a className="link link-hover p-1">Submit a coin</a>
+    <a className="link link-hover p-1">Submit a presale coin</a>
+    <a className="link link-hover p-1">Submit an airdrop</a>
+    <a className="link link-hover p-1">Request an update</a>
+
+    <div className='grid grid-cols-1 font-semibold'>
+    <h6  className="footer-title">LEGAL</h6>
+    <a className="link link-hover p-1">Terms & Conditions</a>
+    <a className="link link-hover p-1">Privacy policy</a>
+    <a className="link link-hover p-1">Cookie statement</a>
+    <a className="link link-hover p-1">Cookie statement</a>
+    <a className="link link-hover p-1"> Disclaimer</a>
+    <a className="link link-hover p-1">Operating entities</a>
+  </div>
+  </div>
+   </div>
+   
 </footer>
-<footer className="footer bg-neutral text-neutral-content items-center p-4 ">
-  <aside className="grid-flow-col items-center ml-28 mr-28">
+<footer className="footer bg-neutral text-neutral-content items-center p-4">
+<aside className="grid-flow-col items-center m-auto  ">
   <a href="#">  <img className='w-[200px] h-[60px]' src="https://i.ibb.co/gvxJQS0/horizontal-logo-small.png" alt="" /></a>
  
  
@@ -106,8 +109,6 @@ const Footer = () => {
       <p className='w-[100px] text-center ml-[-80px]'>CoinMooner © 2024</p>
     </a>
   </nav>
- 
-
   <nav >
  
   <div className='flex'>
@@ -118,7 +119,6 @@ const Footer = () => {
     </div>
   </div>
   </nav>
-  
 </footer>
         </div>
     );
