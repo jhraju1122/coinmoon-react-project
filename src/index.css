@@ -1,7 +1,6 @@
 body{
   background-color: #120d0d;
-  margin-left: 140px;
-  margin-right: 140px;
+ 
 }
 .navbar{
   background-color: #28272b;
@@ -15,4 +14,7 @@ body{
 }
  footer{
   padding: 40px;
+ }
+ .Any-questions{
+  
  }
