@@ -6,7 +6,7 @@ const Footer = () => {
        
 
 
-   <footer className="footer bg-neutral text-neutral-content grid-rows-2 p-10">
+   <footer className="footer bg-neutral  text-neutral-content grid-rows-2">
    <nav>
     <h6 className="footer-title">CRYPTOCURRENCY RANKING</h6>
     <a className="link link-hover">List of all coins</a>
